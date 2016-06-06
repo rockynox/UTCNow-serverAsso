@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1cfa3031-8d1c-4635-b53f-fbe388113f44" name="Server Asso" url="http://files.mde.utc">
+        <fileTransfer host="files.mde.utc" port="22" rootFolder="/assos/utcnow/public_html" accessType="SFTP" password="dfdadffcdfe0dfe1dfc5dfe3dfd9dfdc" username="utcnow">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
