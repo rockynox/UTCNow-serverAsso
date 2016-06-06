@@ -5,7 +5,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 $request = explode('/', trim($_SERVER['PATH_INFO'],'/'));
 $input = json_decode(file_get_contents('php://input'),true);
  
-// connect to the mysql database
+// connect to the mysql database kikou
 $link = mysqli_connect('sql.mde.utc', 'utcnow', 'dM9dLe62', 'utcnow');
 mysqli_set_charset($link,'utf8');
  
